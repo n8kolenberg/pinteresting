@@ -27,7 +27,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass' 
 gem 'devise', '~>3.2.4'
 gem 'paperclip', github: 'thoughtbot/paperclip'
-gem 'aws-sdk', '~>1.20.0'
+
 
 group :development, :test do
 	gem 'sqlite3'
@@ -36,6 +36,7 @@ end
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
+	gem 'aws-sdk', '~>1.20.0'
 end
 
 
